@@ -11,9 +11,9 @@ if resistor == '':
     print(f'Parallellresistans: {parallell_resistans}')
 
 else:
-    for resistor in resistor.split():
-        serie_resistans += int(resistor)
-        parallell_resistans += pow(int(resistor),-1)
+    for r in resistor.split():
+        serie_resistans += int(r)
+        parallell_resistans += pow(int(r),-1)
 
     parallell_resistans = pow(parallell_resistans, -1)
     print(f'Serieresistans: {serie_resistans}')
