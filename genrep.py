@@ -13,8 +13,9 @@ if resistor == '':
 else:
     for r in resistor.split():
         serie_resistans += int(r)
-        parallell_resistans += pow(int(r),-1)
+        parallell_resistans += int(r)**-1
 
     parallell_resistans = pow(parallell_resistans, -1)
+    print(f'\nEi24 - genrep praktiskt prov')
     print(f'Serieresistans: {serie_resistans}')
     print(f'Parallellresistans: {parallell_resistans}')
