@@ -1,3 +1,6 @@
+#Author: Juha Pekkala
+#Date: 2025-10-07
+
 serie_resistans = 0
 parallell_resistans = 0
 
